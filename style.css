@@ -1,19 +1,20 @@
 .product {
   width: 33%;
   height: 300px;
-  float: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
 
 
 
-}
-
-.product .title{
-  color: #444;
-  font-size: 24px;
-  text-align: center;
-  margin: 5px;
 
 }
+
+
+
+
 
 .Contato{
 float: left;
@@ -22,7 +23,7 @@ position: absolute;
 top: 50%;
 left: 50%;
 margin-right: -50%;
-transform: translate(-50%, -50%)
+transform: translate(-50%, -50%);
 }
 
 p{
